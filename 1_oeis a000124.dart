@@ -5,7 +5,7 @@ void main() {
     stdout.write("Input: ");
     String? input = stdin.readLineSync();
 
-    // Validasi input harus angka
+    // Validasi input tidak boleh kosong & harus angka
     if (input != null && int.tryParse(input) != null) {
       int n = int.parse(input);
 
